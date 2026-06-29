@@ -1,0 +1,34 @@
+canonical_identifier: bkk:krp/KR3a0122/CHANT/v1
+canonical_location: https://kanripo.org/bkk/KR3a0122/CHANT/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 通語一卷
+  identifiers:
+    krp: KR3a0122
+  tags:
+    kr-categories: KR3a
+    tls-dates: dat04500
+  source:
+    repository: tls-texts
+    path: data/tls/KR3a0122.xml
+  edition:
+    short: CHANT
+assets:
+  parts:
+  - {seq: 1, filename: KR3a0122_001-CHANT.yaml, hash: 'sha256:bdd1fc8943df44a6b31bde169a1d0a4f67ef33a7444750923a295fe896f122fa'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR3a0122_001-CHANT.markers.yaml, hash: 'sha256:38bd85e027b1fb92ca77d89c1b284f139cf99c542dba1ef8da6697e8e0c0c132'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR3a0122_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 813
+  label: 通語
+  type: section
+  level: 1
+hash: sha256:6c776b6f79a02ab631fbf6a2f9a5f61afcc41192808dca4fda69ce97bd9bccba
